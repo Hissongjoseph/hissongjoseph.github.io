@@ -1,0 +1,13 @@
+.jumbotron {
+    background-color: #BBDEFB;
+    height: 100%;
+    background-size: cover;
+    min-height: 500px;
+    border-radius: 0%;
+}
+
+navbar.navbar-expand-lg.navbar-dark.bg-dark{
+    display: inline-block;
+    float: none;
+}
+
