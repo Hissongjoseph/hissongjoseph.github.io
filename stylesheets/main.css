@@ -9,6 +9,10 @@
     color: white;
 }
 
+.navbar.navbar-expand-lg{
+    background-color: black;
+}
+
 .rounded-circle.img-size.img-fluid{
     width: 250px;
     height: 250px;
@@ -17,6 +21,10 @@
 .overview{
     text-align: center;
     margin: 15px;
+}
+
+.links{
+    text-align: center;
 }
 
 .card-group{
