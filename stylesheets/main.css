@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: url("../img/main.jpg");
+    background-color: black;
     background-size: cover;
     height: 100%;
     background-size: cover;
@@ -26,6 +26,7 @@
 
 .card-title{
     text-align: center;
+    text-decoration: underline;
 }
 
 ul{
