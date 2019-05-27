@@ -1,13 +1,38 @@
 .jumbotron {
-    background-color: #BBDEFB;
+    background-image: url("../img/main.jpg");
+    background-size: cover;
     height: 100%;
     background-size: cover;
     min-height: 500px;
     border-radius: 0%;
+    text-align: center;
+    color: white;
 }
 
-navbar.navbar-expand-lg.navbar-dark.bg-dark{
-    display: inline-block;
-    float: none;
+.rounded-circle.img-size.img-fluid{
+    width: 250px;
+    height: 250px;
 }
 
+.overview{
+    text-align: center;
+    margin: 15px;
+}
+
+.card-group{
+    margin: 15px;
+    text-align: center;
+}
+
+.card-title{
+    text-align: center;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
