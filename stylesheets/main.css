@@ -2,15 +2,10 @@
     background-color: black;
     background-size: cover;
     height: 100%;
-    background-size: cover;
     min-height: 500px;
-    border-radius: 0%;
+    border-radius: 0;
     text-align: center;
     color: white;
-}
-
-.navbar.navbar-expand-lg{
-    background-color: black;
 }
 
 .rounded-circle.img-size.img-fluid{
@@ -21,10 +16,6 @@
 .overview{
     text-align: center;
     margin: 15px;
-}
-
-.links{
-    text-align: center;
 }
 
 .card-group{
@@ -44,4 +35,33 @@ ul{
 
 li{
     list-style-type: none;
+}
+
+.pane{
+    min-width: 100%;
+    height: 500px;
+}
+
+.nav.nav-tabs{    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    padding: 15px;
+}
+
+.card{
+    max-width: 300px;
+}
+
+.card-deck{
+    margin: 15px;
+}
+
+.card-image{
+    width: 100%;
+    text-align: center;
 }
