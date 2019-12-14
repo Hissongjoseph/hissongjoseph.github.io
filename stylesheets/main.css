@@ -1,74 +1,9 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-    color: #f0f0f5;
-}
-
-h2 {
-    color: #f0f0f5;
-}
-
-.nav {
-    background-color: #5c85d6;
-    text-align: center;
-    padding: 35px;
-    height: 40vh;
-}
-
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
-.card {
-    background-color: #5c85d6;
-    border-radius: 10px;
-    text-align: center;
-    margin: auto;
-    margin-top: 25px;
-}
-
-.skills-card {
-    width: 300px;
-    height: 300px;
-}
-
-/* Buttons */
-
-.btn {
-    font-size: 7rm;
-    color: #f0f0f5;
-}
-
-.btn-link {
-    font-size: 3rem;
-    margin: 5px;
-}
-
-.btn-link-card {
-    font-size: 10rem;
-    color: #f0f0f5;
-}
-
-a:hover {
-    color: #fff;
+.navbar navbar-expand-lg navbar-dark{
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);    
 }
